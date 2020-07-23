@@ -1,0 +1,4 @@
+/* pega a url da imagem destacada */
+  $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'medium'); 
+?>
+<img scr="path-imagem/imagem.jpg" style="background-image:url('<?php echo $featured_img_url ?>');background-size: cover;">
