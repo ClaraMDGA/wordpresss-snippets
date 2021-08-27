@@ -5,7 +5,7 @@ if( function_exists('acf_add_options_page') ) {
 	acf_add_options_page(array(
 		'page_title' 	=> 'Consultoria Mit', //change to the client name
 		'menu_title'	=> 'Consultoria Mit', //change to the client name
-		'menu_slug' 	=> 'consultoria-mit', //change to the client name without space and special chars
+		'menu_slug'	=> 'theme-general-settings', //change to the client name without space and special chars
 		'capability'	=> 'edit_posts',
 		'redirect'		=> false,
 		'position' => 2,
