@@ -1,3 +1,4 @@
+<?php 
 if( function_exists('acf_add_options_page') ) {
 	
 	
@@ -34,3 +35,4 @@ Quando usa Dynamic Data no Oxygen
 3. Em Function arguments usar: nome_do_campo,option
 **/
 
+?>
