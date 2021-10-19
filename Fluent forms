@@ -1,0 +1,65 @@
+/*Margin abaixo dos campos*/
+.fluentform .ff-el-group {
+	margin-bottom:33px!important;
+}
+
+
+/*Campos do formulario*/
+.fluentform .ff-el-form-control {
+    padding: 12px 0px!important;
+    font-size: 18px!important;
+    line-height: 1.5!important;
+    color: #000!important;
+    border: none!important;
+  	border-bottom:2px solid color(4)!important;
+    border-radius:0!important;
+  	font-family:sans-serif;
+
+}
+
+/*Placeholder*/
+.fluentform .ff-el-form-control::-webkit-input-placeholder { /* Edge */
+  color: #000!important;
+}
+
+.fluentform .ff-el-form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #000!important;
+}
+
+.fluentform .ff-el-form-control::placeholder {
+  color: #000!important;
+}
+
+form.fluent_form_1 .ff-btn-submit {
+    background-color: #fff;
+    color: #FDCF4B;
+}  
+
+form.fluent_form_1 .ff-btn-submit:hover {
+    background-color: #fff;
+    color: #FDCF4B;
+}  
+
+.fluentform .ff-btn {
+    display: inline-block;
+    font-weight: 300!important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 20px!important;
+    line-height: 1.5;
+    border-radius: 4px;
+    position: relative;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.ff_submit_btn_wrapper {
+	display:flex;
+  	justify-content:flex-end
+}
