@@ -1,23 +1,28 @@
 <div class="my-sm-share">
   <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>">
-    <img src="/wp-content/uploads/2021/04/fb.svg">
+    <img src="/wp-content/uploads/2022/12/fb.svg">
   </a>
 
   <a target="_blank" href="https://twitter.com/share?text=<?php the_title(); ?>&amp;url=<?php the_permalink(); ?>">
-    <img src="/wp-content/uploads/2021/04/tt.svg">
+    <img src="/wp-content/uploads/2022/12/tt.svg">
   </a>
 
   <a target="_blank" href="https://api.whatsapp.com/send?text=<?php the_permalink(); ?>">
-    <img src="/wp-content/uploads/2021/04/wa.svg">
+    <img src="/wp-content/uploads/2022/04/wa.svg">
   </a>
 
   <a target="_blank" href="https://telegram.me/share/url?url=<?php the_permalink(); ?>">
-    <img src="/wp-content/uploads/2021/04/tg.svg">
+    <img src="/wp-content/uploads/2022/12/tg.svg">
   </a>
 
   <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=<?php the_permalink(); ?>&amp;title=<?php the_title(); ?>">
-    <img src="/wp-content/uploads/2021/04/ld.svg">
+    <img src="/wp-content/uploads/2022/12/ld.svg">
   </a>
+	
+  <a target="_blank" href="mailto:?subject=<?php the_title();?>&body=<?php the_permalink(); ?>">
+    <img src="/wp-content/uploads/2022/12/mail.svg">
+  </a>
+	
 </div>
 
 <style>
