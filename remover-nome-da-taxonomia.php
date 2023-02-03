@@ -1,3 +1,4 @@
+<php
 add_filter( 'get_the_archive_title', 'my_theme_archive_title' );
 /**
  * Remove archive labels.
@@ -20,3 +21,4 @@ function my_theme_archive_title( $title ) {
 
     return $title;
 }
+?>
